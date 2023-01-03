@@ -1,0 +1,7 @@
+.card-list-type-1-item {
+  margin-bottom: 40px;
+}
+
+.card-list-type-1-item > div:last-of-type > img {
+  width: 100%;
+}

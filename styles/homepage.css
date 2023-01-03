@@ -1,0 +1,39 @@
+.hero-wrapper {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.hero-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  pointer-events: none;
+}
+
+.hero-wrapper .button {
+  margin-top: 20px;
+}
+
+.top-text > h2 {
+  margin-top: 50px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: left;
+}
+
+@media screen and (max-width: 660px) {
+  .hero-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-top: 30px;
+  }
+  .hero-image {
+    position: relative;
+    height: 60%;
+    width: auto;
+    margin-top: 50px;
+  }
+}

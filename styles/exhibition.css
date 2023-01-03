@@ -1,0 +1,16 @@
+h1 {
+  margin-top: 40px;
+}
+
+.exhibition-list {
+  list-style: none;
+  padding: 0;
+}
+
+.date-text {
+  font-weight: 300;
+}
+
+.separator {
+  margin-top: 50px;
+}
